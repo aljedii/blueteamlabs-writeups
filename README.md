@@ -24,6 +24,7 @@ Questo repository documenta il mio percorso di apprendimento pratico nell'ambito
 
 | Attività | Categoria | Stato |
 |---|---|---|
+| Melissa |
 | Nuovi write-up in arrivo | — | In corso |
 
 ## Note
