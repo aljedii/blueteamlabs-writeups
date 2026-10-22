@@ -33,19 +33,25 @@ Analizzare il documento `list.doc` per individuare le informazioni richieste dal
 
 L'analisi è iniziata aprendo `list.doc` con Mousepad e cercando manualmente le informazioni richieste dalla challenge.
 Questo approccio ha permesso di iniziare l'investigazione, ma non è stato sufficiente per esaminare in modo efficace la struttura del documento e il codice delle macro.
+
 ![Screenshot](screenshots/01.png)
 
 ### 2. Estrazione e analisi delle macro con olevba
 
 Consultando gli indizi associati alla challenge, ho individuato `oledump` come strumento utile per l'analisi.
 Ho quindi approfondito l'utilizzo di `olevba`, che mi ha permesso di estrarre e visualizzare il codice VBA in chiaro, identificando la macro da esaminare.
+
 ![Screenshot](screenshots/02.png)
 
 ### 3. Esame del codice con oledump.py
 
 Per individuare con maggiore precisione le istruzioni rilevanti, ho approfondito l'utilizzo di `oledump.py`.
 Con il supporto dell'AI ho preparato un comando Bash per semplificare l'esecuzione dello strumento e rendere più agevole l'ispezione del codice.
-Grazie allo script possiamo vedere la Macro alla riga (stream) 7 contrassegnata con una M; -s 7 -v gli indichiamo di concentrarci nella stream 7 e di decomprimere il contenuto VBA.
+
+Grazie allo script possiamo vedere la Macro alla riga (stream) 7 contrassegnata con una M. 
+
+-s 7 -v gli indichiamo di concentrarci nella **stream** 7 e di decomprimere il contenuto **VBA**.
+
 ![Screenshot](screenshots/03.png)
 
 ### 4. Interpretazione delle istruzioni VBA
@@ -55,15 +61,40 @@ Ho utilizzato l'AI come supporto per approfondire la logica del codice e orienta
 
 ## Evidenze e risultati
 
-In questa sezione verranno documentati i passaggi più significativi dell'analisi, includendo screenshot degli strumenti utilizzati e delle evidenze individuate.
+Challenge Submission:
 
-- Ispezione iniziale del documento.
-- Estrazione e visualizzazione delle macro con `olevba`.
-- Individuazione della macro da esaminare.
-- Analisi delle istruzioni con `oledump.py`.
-- Evidenze che hanno permesso di rispondere alle domande della challenge.
+Submit the stream number that contains the Melissa macro in the LIST.DOC file
 
-*Le evidenze specifiche e le relative spiegazioni verranno aggiunte sulla base dei risultati effettivamente ottenuti.*
+![Screenshot](screenshots/streamnumbermacro.png)
+
+After identifying which version of word, Melissa will enable all macros from registry
+
+![Screenshot](screenshots/office.png)
+
+What is the email service targeted by Melissa
+
+![Screenshot](screenshots/mail.png)
+
+How many number of email addresses were collected 
+
+![Screenshot](screenshots/numberofmail.png)
+
+What is the string used by melissa to identify whether a PC is infected or not and decide whether to collect email addresses or not
+
+![Screenshot](screenshots/stringused.png)
+
+What is the variable responsible for identifying the email username of the infected PC
+
+![Screenshot](screenshots/variable.png)
+
+What is the text in email body used for spreading melissa
+
+![Screenshot](screenshots/streamnumbermacro.png)
+
+What is the text that is inserted by Melissa in an open word document?
+
+![Screenshot](screenshots/openworddocumentphrase.png)
+
 
 ## Competenze approfondite
 
