@@ -39,13 +39,13 @@ Questo approccio ha permesso di iniziare l'investigazione, ma non è stato suffi
 
 Consultando gli indizi associati alla challenge, ho individuato `oledump` come strumento utile per l'analisi.
 Ho quindi approfondito l'utilizzo di `olevba`, che mi ha permesso di estrarre e visualizzare il codice VBA in chiaro, identificando la macro da esaminare.
-![Screenshot](screenshot/02.png)
+![Screenshot](screenshots/02.png)
 
 ### 3. Esame del codice con oledump.py
 
 Per individuare con maggiore precisione le istruzioni rilevanti, ho approfondito l'utilizzo di `oledump.py`.
 Con il supporto dell'AI ho preparato un comando Bash per semplificare l'esecuzione dello strumento e rendere più agevole l'ispezione del codice.
-![Screenshot](screenshot/03.png)
+![Screenshot](screenshots/03.png)
 
 ### 4. Interpretazione delle istruzioni VBA
 
