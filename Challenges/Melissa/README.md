@@ -84,6 +84,7 @@ What is the string used by melissa to identify whether a PC is infected or not a
 ![Screenshot](screenshots/stringused.png)
 
 What is the variable responsible for identifying the email username of the infected PC
+
 What is the text in email body used for spreading melissa
 
 ![Screenshot](screenshots/variable.png)
