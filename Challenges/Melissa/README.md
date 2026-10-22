@@ -32,25 +32,24 @@ Analizzare il documento `list.doc` per individuare le informazioni richieste dal
 ### 1. Prima ispezione del documento
 
 L'analisi è iniziata aprendo `list.doc` con Mousepad e cercando manualmente le informazioni richieste dalla challenge.
-
 Questo approccio ha permesso di iniziare l'investigazione, ma non è stato sufficiente per esaminare in modo efficace la struttura del documento e il codice delle macro.
+/screenshot/01.png
 
 ### 2. Estrazione e analisi delle macro con olevba
 
 Consultando gli indizi associati alla challenge, ho individuato `oledump` come strumento utile per l'analisi.
-
 Ho quindi approfondito l'utilizzo di `olevba`, che mi ha permesso di estrarre e visualizzare il codice VBA in chiaro, identificando la macro da esaminare.
+/screenshot/02.png
 
 ### 3. Esame del codice con oledump.py
 
 Per individuare con maggiore precisione le istruzioni rilevanti, ho approfondito l'utilizzo di `oledump.py`.
-
 Con il supporto dell'AI ho preparato un comando Bash per semplificare l'esecuzione dello strumento e rendere più agevole l'ispezione del codice.
+/screenshot/03.png
 
 ### 4. Interpretazione delle istruzioni VBA
 
 Durante l'analisi ho incontrato difficoltà nell'interpretazione di alcune istruzioni della macro e nell'individuazione delle informazioni richieste.
-
 Ho utilizzato l'AI come supporto per approfondire la logica del codice e orientare la ricerca delle informazioni. Questa fase ha richiesto un ulteriore approfondimento del linguaggio VBA, che non conoscevo in modo sufficiente per interpretare autonomamente tutte le istruzioni.
 
 ## Evidenze e risultati
