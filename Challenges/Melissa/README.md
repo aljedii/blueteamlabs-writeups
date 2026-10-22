@@ -33,7 +33,7 @@ Analizzare il documento `list.doc` per individuare le informazioni richieste dal
 
 L'analisi è iniziata aprendo `list.doc` con Mousepad e cercando manualmente le informazioni richieste dalla challenge.
 Questo approccio ha permesso di iniziare l'investigazione, ma non è stato sufficiente per esaminare in modo efficace la struttura del documento e il codice delle macro.
-![Screenshot](screenshot/01.png)
+![Screenshot](screenshots/01.png)
 
 ### 2. Estrazione e analisi delle macro con olevba
 
