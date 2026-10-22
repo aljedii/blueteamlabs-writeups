@@ -24,7 +24,7 @@ Questo repository documenta il mio percorso di apprendimento pratico nell'ambito
 
 | Attività | Categoria | Stato |
 |---|---|---|
-| Melissa | Challenge | Complete |
+| [Melissa](Challenges/Melissa/README.md) | Challenge | Complete |
 | Nuovi write-up in arrivo | — | In corso |
 
 ## Note
