@@ -73,7 +73,7 @@ After identifying which version of word, Melissa will enable all macros from reg
 
 What is the email service targeted by Melissa
 
-![Screenshot](screenshots/mail.png)
+![Screenshot](screenshots/emailservice.png)
 
 How many number of email addresses were collected 
 
