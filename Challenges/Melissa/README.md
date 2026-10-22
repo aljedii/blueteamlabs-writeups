@@ -45,6 +45,7 @@ Ho quindi approfondito l'utilizzo di `olevba`, che mi ha permesso di estrarre e 
 
 Per individuare con maggiore precisione le istruzioni rilevanti, ho approfondito l'utilizzo di `oledump.py`.
 Con il supporto dell'AI ho preparato un comando Bash per semplificare l'esecuzione dello strumento e rendere più agevole l'ispezione del codice.
+Grazie allo script possiamo vedere la Macro alla riga (stream) 7 contrassegnata con una M; -s 7 -v gli indichiamo di concentrarci nella stream 7 e di decomprimere il contenuto VBA.
 ![Screenshot](screenshots/03.png)
 
 ### 4. Interpretazione delle istruzioni VBA
