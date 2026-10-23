@@ -19,6 +19,10 @@ Le prime domande riguardavano elementi direttamente riconoscibili nei comandi, c
 
 L'ultima domanda ha richiesto un approfondimento ulteriore, perché l'attaccante aveva eseguito numerosi comandi per esplorare il sistema e cercare possibili modalità di escalation dei privilegi.
 
+![Screenshot](screenshots/01.png)
+![Screenshot](screenshots/02.png)
+![Screenshot](screenshots/03.png)
+
 ## Analisi dell'escalation dei privilegi
 
 ### 1. Ricognizione del sistema
