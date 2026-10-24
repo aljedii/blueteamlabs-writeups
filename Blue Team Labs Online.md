@@ -24,7 +24,8 @@ Questo repository documenta il mio percorso di apprendimento pratico nell'ambito
 
 | Attività | Categoria | Stato |
 |---|---|---|
-| [Melissa](Challenges/Melissa/README.md) | Challenge | Complete |
+| [Melissa](Challenges/Melissa/Melissa.md) | Challenge | Complete |
+| [Privilege Escalation](Challenges/Log%20Analysis%20-%20Privilege%20Escalation/Log%20Analysis%20%E2%80%94%20Privilege%20Escalation.md) | Challenge | Complete |
 | Nuovi write-up in arrivo | — | In corso |
 
 ## Note
